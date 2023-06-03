@@ -1,4 +1,4 @@
-project: parse_keymap_arg
+project: tere
 target: parse_keymap_arg
 
 cmds:
