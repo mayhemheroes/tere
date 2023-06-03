@@ -1,0 +1,19 @@
+[package]
+name = "tere-fuzz"
+version = "0.0.0"
+edition = "2021"
+
+[package.metadata]
+cargo-fuzz = true
+
+[dependencies]
+tere = { path = ".." }
+honggfuzz = "0.5.55"
+
+# Prevent this from interfering with workspaces
+[workspace]
+members = ["."]
+
+[[bin]]
+name = "parse_keymap_arg"
+path = "fuzz_targets/parse_keymap_arg.rs"

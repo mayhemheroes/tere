@@ -1,0 +1,5 @@
+project: parse_keymap_arg
+target: parse_keymap_arg
+
+cmds:
+  - cmd: /parse_keymap_arg
