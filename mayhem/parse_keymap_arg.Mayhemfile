@@ -1,0 +1,5 @@
+project: tere
+target: parse_keymap_arg
+
+cmds:
+  - cmd: /parse_keymap_arg
